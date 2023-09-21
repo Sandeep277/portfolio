@@ -1,0 +1,79 @@
+.logo a {
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0rem 6rem;
+    margin-bottom: 20px;
+}
+
+.hambuger {
+    display: none;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+}
+
+.links a {
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+.btn {
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    background-color: gray;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgb(185, 176, 176);
+}
+
+@media (max-width: 800px) {
+    .navbar {
+        align-items: center;
+        margin: 0rem 2rem;
+    }
+    .hambuger{
+        display: block;
+        position: absolute;
+        right: 1rem;
+        align-items: center;
+    }
+    .links {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        right: 0;
+        top: 3rem;
+        height: 40vh;
+        width: 30vw;
+        padding: 1rem 1rem;
+        border-top-left-radius: 20px;
+        background-color: gray;
+        z-index: 999;
+    }
+    .links .link {
+        color: #fff;
+    }
+
+    
+    .hide {
+        display: none;
+    }
+    .links a {
+        margin-bottom: 2rem;
+    }
+    .btn {
+        display: none;
+    }
+}

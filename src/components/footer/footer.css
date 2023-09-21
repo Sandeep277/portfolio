@@ -1,0 +1,22 @@
+.footer{
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.footerBar{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.footerBar a {
+    margin-left: 2rem;
+}
+
+.rights span {
+    color: blue;
+    margin-left: 20px;
+}

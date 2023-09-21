@@ -1,0 +1,60 @@
+.bottomSection {
+    display: flex;
+    margin: 4rem 6rem;
+    justify-content: space-between;
+}
+
+.bottomLeft {
+    flex: 48%;
+}
+
+.bottomRight{
+    flex: 48%;
+    margin-left: 0.5rem;
+}
+.bottomCommon {
+    height: 30vh;
+    border-radius: 20px;
+    padding: 1rem;
+    box-shadow: 0 0 10px rgba(228, 213, 213, 0.89);
+}
+.bottomCommon:hover{
+    cursor: pointer;
+}
+
+.workTogether {
+    padding: 2rem;
+}
+
+.workTogether p {
+    font-size: 3rem;
+    font-weight: 700;
+    transition: font-size 0.3s;
+}
+
+.workTogether p span {
+    color: blue;
+}
+
+.workTogether p:hover {
+    font-size: 3.3rem;
+    color: rgb(67, 62, 62);
+    
+}
+
+
+@media (max-width: 900px) {
+    .bottomSection {
+        flex-direction: column;
+        justify-content: center;
+        margin: 2rem auto;
+        height: fit-content;
+
+    }
+    .bottomLeft {
+        margin-bottom: 2rem;
+    }
+    .bottomRight {
+        margin-left: 0;
+    }
+}

@@ -1,0 +1,57 @@
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FBFBFC;
+    height: 100vh;
+}
+
+.contactDetails {
+    width: 60%;
+    display: flex;
+    background: #fff;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 7px;
+}
+
+.contactDetails p{
+    margin-top: 20px;
+    margin-bottom: 2rem;
+    font-size: 40px;
+}
+
+.contactDetails p span{
+    color: #5774f5;
+}
+.contactDetails input {
+    height: 35px;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 7px;
+    background: #FBFBFC;
+    border: none;
+}
+
+.contactDetails button {
+    height: 50px;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 7px;
+    background: #323232;
+    border: none;
+    font-size: large;
+    color: #fff;
+    transition: background-color 0.3s ease-out;
+}
+
+.contactDetails button:hover{
+    background-color: #758DF7;
+}
+
+@media (max-width: 800px) {
+    .contact {
+        flex-direction: column;
+    }
+    
+}
