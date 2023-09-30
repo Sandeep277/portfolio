@@ -3,11 +3,7 @@
     margin: 4rem 6rem;
 }
 
-.workLeft {
-    flex: 30%;
-}
-
-.workRight{
+.workRight {
     flex: 70%;
     position: relative;
     top: 4rem;
@@ -15,18 +11,27 @@
 }
 
 .box1 {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
 }
-.innerbox1 {
-    flex: 50%;
-    margin-right: 1rem;
-}
+
 .project {
     margin-bottom: 2rem;
     border-radius: 20px;
     padding: 1rem;
     box-shadow: 2px 2px 6px rgba(128, 128, 128, 0.5);
+    transition: transform 0.4s ease; 
 }
+
+.project:hover{
+    transform: scale(1.1);
+}
+
+.project > p {
+    font-weight: bold;
+}
+
 .project img {
     height: 150px;
     width: 100%;
@@ -34,9 +39,6 @@
     object-fit: cover;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-}
-.innerbox2 {
-    flex: 50%;
 }
 
 .techUes {
@@ -55,7 +57,7 @@
     margin-top: 20px;
 }
 
-.project-btn button{
+.project-btn button {
     padding: 10px 25px;
     border: none;
     border-radius: 7px;
@@ -64,26 +66,27 @@
     background: #323232;
     transition: background-color 0.3s ease-out;
 }
-.project-btn button:hover{
+
+.project-btn button:hover {
     background-color: #758DF7;
 }
 
-@media (max-width: 900px) {
-    .innerbox1 {
-        margin-right: 0;
-    }
-    .workLeft{
-        margin-top: 4rem;
-    }
+@media (max-width: 1000px) {
     .workRight {
         right: 0;
     }
-    .works{
-        flex-direction: column;   
-        margin: 0 1rem;     
-    }
-    .box1 {
+
+    .works {
         flex-direction: column;
-        margin:0;
+        margin: 0 1rem;
+    }
+
+    .box1 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 700px) {
+    .box1 {
+        grid-template-columns: repeat(1, 1fr);
     }
 }

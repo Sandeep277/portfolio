@@ -4,7 +4,7 @@ import MiddelSection from '../homeSection/middelSection/MiddelSection'
 import BottomSection from '../homeSection/bottomSection/BottomSection'
 import { Link } from 'react-router-dom'
 import { useNavigate } from 'react-router-dom';
-import ProfilePic from '../assets/SANDEEP KUSHWAHA(1).png'
+import ProfilePic from '../assets/profile.jpg';
 import Project from '../assets/developer-coding-in-php.jpg'
 
 const Home = () => {
@@ -32,9 +32,6 @@ const Home = () => {
 
                 {/* right section  */}
                 <div className="rightSection">
-                    {/* <div className="flowSection">
-                        <p>floation left to right box with texts..</p>
-                    </div> */}
                     <div className="homeRight">
                         <div onClick={handleDivClickProject} className="aboutMe" style={{ marginRight: '20px' }}>
                             <div className='aboutmeImg'>

@@ -17,7 +17,7 @@ const Navbar = () => {
         <div className={`links ${menu ? 'show' : 'hide'}`}>
             <Link className='link' to="/">Home</Link>
             <Link className='link' to="/about">About</Link>
-            <Link className='link' to="/works">Works</Link>
+            <Link className='link' to="/works">Projects</Link>
             <Link className='link' to="/contact">Contact</Link>
         </div>
         <div className="contactBtn">

@@ -2,6 +2,7 @@
     height: 40vh;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin: 4rem 6rem;
 }
 
@@ -32,14 +33,6 @@
     flex-direction: column;
 }
 
-.flowSection {
-    margin-top: 10px;
-    border: 2px solid gray;
-    border-radius: 30px;
-    align-items: center;
-    padding: 0.6rem;
-}
-
 .homeRight {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -61,7 +54,7 @@
     flex-direction: column;
     align-items: flex-start;
     padding: 10px;
-    height: 28vh;
+    /* height: 28vh; */
     width: 100%;
     border-radius: 10px;
     box-shadow: 2px 2px 6px rgba(109, 109, 109, 0.5);
@@ -116,14 +109,15 @@ a {
     .homeSection {
         flex-direction: column;
         margin: 2rem auto;
-
         justify-content: center;
         height: fit-content;
     }
 
     .homeLeft {
-        width: fit-content;
+        padding: 10px;
+        width: 80%;
         margin: 0;
+        margin-right: 10px;
         margin-bottom: 1rem;
     }
 
@@ -133,7 +127,7 @@ a {
 
     .aboutMe {
         height: auto;
-        width: 0 auto;
+        width: 35vw;
     }
 
     .aboutText {
@@ -155,9 +149,8 @@ a {
 
 
 @media (max-width: 700px) {
-
-    .homeLeft {
-        margin: 1rem 2rem;
+    .aboutMe{
+        width: 80vw;
     }
 
     .homeRight {

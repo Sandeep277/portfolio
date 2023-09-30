@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import ProfilePic from '../assets/SANDEEP KUSHWAHA(1).png'
+import ProfilePic from '../assets/profile.jpg'
 
 import Linkedin from '../assets/linkedin.png'
 import Twitter from '../assets/twitter.png'
