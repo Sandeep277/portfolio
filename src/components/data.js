@@ -2,8 +2,17 @@ import fitness from "./projectAssets/fitnessapp.png";
 import youtube from "./projectAssets/youtubeclone.png";
 import movieapp from "./projectAssets/movieapp.png";
 import summarizeArticles from "./projectAssets/summarizeArticles.png";
+import realState from './projectAssets/ABC Estate.png';
 
 const projectsData = [
+  {
+    img: realState, 
+    title: "ABC Estate",
+    about: "Real State",
+    techStack: ['HTML', 'tailwind', 'JavaScript','React', 'Node', 'Express', 'MongoDB'],
+    live: "https://mern-estate-ncrv.onrender.com/",
+    github: "https://github.com/Sandeep277/real-estate-project",
+  },
   {
     img: fitness, 
     title: "Fetness App",
