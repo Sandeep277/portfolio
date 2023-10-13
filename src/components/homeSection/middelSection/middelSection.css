@@ -9,31 +9,31 @@
     border-radius: 20px;
     border: 1px solid rgb(241, 239, 239);
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.89);
-    transition: transform 0.3s ease-in-out; 
+    transition: transform 0.3s ease-in-out;
 }
 
-.midMid:hover,.midCommon:hover {
+.midMid:hover,
+.midCommon:hover {
     transform: scale(1.07);
-
 }
 
 .midLeft {
     flex: 20%;
 }
 
-.midMid{
+.midMid {
     flex: 40%;
     margin: 0 1rem;
     border-radius: 20px;
     border: 1px solid rgb(241, 239, 239);
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.89);
-    transition: transform 0.3s ease-in-out; 
+    transition: transform 0.3s ease-in-out;
 }
 
 .techStack {
     display: flex;
     flex-direction: column;
-    align-items: flex-start; 
+    align-items: flex-start;
     text-align: flex-start;
 }
 
@@ -62,7 +62,7 @@
     padding: 10px;
 }
 
-.techSpec p{
+.techSpec p {
     display: flex;
     flex-direction: column;
     margin-left: 2rem;
@@ -71,7 +71,7 @@
     justify-content: flex-start;
 }
 
-.midRight{
+.midRight {
     flex: 20%;
 }
 
@@ -101,7 +101,6 @@
     border-radius: 20px;
     background-color: white;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.89);
-
 }
 
 .socials {
@@ -116,7 +115,7 @@
     transition: transform 0.3s ease-in;
 }
 
-.socials:hover{
+.socials:hover {
     transform: scale(1.09);
 }
 
@@ -130,15 +129,26 @@
 @media (max-width: 900px) {
     .middelSection {
         display: grid;
-        grid-template-rows:repeat(1fr, 1fr);
+        justify-content: center;
+        grid-template-rows: repeat(1fr, 1fr);
         flex-direction: column;
         margin: 2rem auto;
         height: fit-content;
-        width: 80%;
+        width: 90%;
     }
+
+    .midCommon, .midLeft{
+        width: 90%;
+        margin: 0 auto;
+    }
+
     .midMid {
-        margin: 1rem 0;
+        height: 30vh;
+        width: 90%;
+        border-radius: 20px;
+        margin: 20px auto;
     }
+
     .techAbout h3 {
         margin-bottom: 1rem;
     }

@@ -43,7 +43,7 @@
 }
 
 
-@media (max-width: 900px) {
+@media (max-width: 700px) {
     .bottomSection {
         flex-direction: column;
         justify-content: center;
@@ -51,6 +51,7 @@
         height: fit-content;
         width: 80%;
     }
+
     .bottomLeft {
         margin-bottom: 2rem;
     }

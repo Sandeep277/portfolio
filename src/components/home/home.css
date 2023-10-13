@@ -15,6 +15,15 @@
     padding: 4px;
 }
 
+.person {
+    height: 250px;
+    width: 200px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 20px;
+    margin-right: 2rem;
+}
+
 .aboutPerson {
     display: flex;
     flex-direction: column;
@@ -38,15 +47,6 @@
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
     justify-content: space-between;
-}
-
-.person {
-    height: 250px;
-    width: 200px;
-    object-fit: cover;
-    border-top-left-radius: 10px;
-    border-bottom-right-radius: 20px;
-    margin-right: 2rem;
 }
 
 .aboutMe {
@@ -121,13 +121,24 @@ a {
         margin-bottom: 1rem;
     }
 
+    .person {
+        height: 200px;
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .aboutPerson {
+        margin-top: 1rem;
+        margin-left: 1rem;
+    }
+
     .homeRight {
-        margin: 1rem;
+        display: flex;
     }
 
     .aboutMe {
         height: auto;
-        width: 35vw;
+        width: 90%;
     }
 
     .aboutText {
@@ -149,13 +160,11 @@ a {
 
 
 @media (max-width: 700px) {
-    .aboutMe{
-        width: 80vw;
-    }
-
     .homeRight {
-        grid-template-columns: 1fr;
-        margin: 0 2rem;
+        flex-direction: column;
+        justify-content: center;
+        width: 80vw;
+        margin: 1rem;
     }
 
     .aboutmeImg {
