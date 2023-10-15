@@ -15,7 +15,7 @@ const projectsData = [
   },
   {
     img: fitness, 
-    title: "Fetness App",
+    title: "Fitness App",
     about: "About Project 1",
     techStack: ['HTML', 'CSS', 'JavaScript','React', 'Fitness-API'],
     live: "https://fitnesss-app.netlify.app/",
