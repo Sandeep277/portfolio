@@ -27,7 +27,7 @@ const Contact = () => {
             <div className='contact'>
                 <form ref={form} onSubmit={sendEmail}
                     className="contactDetails">
-                    <p>Let's work <span>Togather.</span></p>
+                    <p>Let's work <span>Together.</span></p>
                     <label>Name</label>
                     <input type="text" name="user_name" placeholder='Name *' />
                     <label>Email</label>
