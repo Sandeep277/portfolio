@@ -45,6 +45,14 @@ const projectsData = [
     live: "https://summarize-articles-with-openai.netlify.app/",
     github: "https://github.com/Sandeep277/summarizer-your-article",
   },
+  {
+    img: nikeLandingPage,
+    title: "Nike Landing Page",
+    about: "About Project 5",
+    techStack: ['React', 'tailwindcss'],
+    live: "https://nike-landing-p.netlify.app/",
+    github: "https://github.com/Sandeep277/nike-landing-page"
+  }
 ];
 
 export default projectsData;
