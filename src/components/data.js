@@ -3,6 +3,7 @@ import youtube from "./projectAssets/youtubeclone.png";
 import movieapp from "./projectAssets/movieapp.png";
 import summarizeArticles from "./projectAssets/summarizeArticles.png";
 import realState from './projectAssets/ABC Estate.png';
+import nikeLandingPage from './projectAssets/nikeLandingPage.png';
 
 const projectsData = [
   {
